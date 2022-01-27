@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Open Sans', sans-serif;}
+.navbar {font-size: 14px; line-height: 38px; color: #141414; font-weight: 400;}
+.email-p {font-size: 14px; line-height: 20px; color: #fff; font-weight: 400;}
+.top-nav {font-size: 12px; font-weight: 400; color: #141414; line-height: 14px;}
+.dress-condition {font-size: 18px; color: #141414; line-height: 26px; font-weight: 400;}
+.shop-now {font-size: 18px; font-weight: 700; color: #141414; line-height: 26px;}
+h1 {font-size: 64px; line-height: 64px; color: #303030; font-weight: 700;}
+h2 {font-size: 20px; line-height: 40px; color: #303030; font-weight: 700;}
+.h2-light {font-size: 20px; line-height: 40px; color: #fff; font-weight: 400;}
+.h2-dark {font-size: 20px; line-height: 40px; color: #141414; font-weight: 400;}
+h3 {font-size: 18px; font-weight: 400; line-height: 40px; color: #141414;}
+a {font-size: 14px; line-height: 22px; color: #555555; font-weight: 400; text-decoration: none;}
+.help-detail {font-size: 14px; line-height: 22px; color: #333333; font-weight: 400;}
+li {list-style: none;}
+
+/* --------------------- Top Navbar Styling --------------------- */
+
+.top-nav-wrapper {
+    background-color: #F3F3F3;
+    padding: 1rem 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.signin-wrapper {
+    margin-left: 3rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.pak-flag {
+    width: 20px;
+}
+
+.tracking-wrapper {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.tracking-wrapper i {
+    margin-left: 4px;
+}
+
+.right-nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* --------------------- Main Navbar Styling --------------------- */
+
+.navbar-wrapper {
+    padding: 2rem 20rem;
+    text-align: center;
+}
+.logo {
+    width: 40px;
+}
+
+.nav-container {
+    padding: 1rem 0;
+}
+
+.nav-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* --------------------- Hero Image Styling --------------------- */
+
+.hero-wrapper {
+    padding: 10px;
+}
+
+.hero-container {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('hero.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+.hero-container i  {
+    font-size: 36px;
+    color:#555555;
+}
+
+.swipe-arrow {
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* --------------------- Sale Styling --------------------- */
+
+.sale-entire-container {
+    padding: 5rem 20rem;
+}
+
+.top-sale-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.bot-sale-wrapper {
+    margin: 5rem 0;
+}
+
+.left-sale-wrapper img {
+    width: 700px;
+    height: 900px;
+}
+
+.right-sale-wrapper img {
+    width: 340px;
+    height: 422px;
+}
+
+/* --------------------- Fragrance Styling --------------------- */
+
+.fragrance-entire-container {
+    padding: 0 10rem;
+    position: relative;
+}
+
+.fragrance-entire-container .shop-now {
+    position: absolute;
+    right: 320px;
+    bottom: -13px;
+}
+
+.frag-container {
+    text-align: center;
+    padding: 5rem;
+    background-color: #FDF9EE;
+    position: relative;
+}
+
+.frag-container h1 {
+    position: absolute;
+    right: 300px;
+    bottom: 0;
+}
+
+/* --------------------- Boys & Girls Styling Styling --------------------- */
+
+.boys-girls-entire-container{
+    padding: 5rem 20rem;
+    text-align: center;
+}
+
+.byg-content-wrapper {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.byg-detail-container {
+    padding-top: 110px;
+}
+
+.boys-girls-entire-container h1 {
+    margin-top: 1.2rem;
+}
+
+.boys-girls-entire-container h3 {
+    text-decoration: underline;
+}
+
+.left-side-byg img {
+    width: 400px;
+}
+
+.left-img-container-byg {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.right-side-byg img {
+    height: 320px;
+}
+
+.light-h2 {
+    font-weight: 600;
+}
+
+/* --------------------- Email Styling --------------------- */
+.email-entire-container {
+    padding: 5rem 20rem 1rem;
+    text-align: center;
+}
+
+.email-wrapper {
+    background-color: #242424;
+    padding: 2rem;
+}
+
+.email-p {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.email-and-button-wrapper {
+    padding: 1rem;
+}
+
+.email-and-button-wrapper input {
+    width: 230px;
+    padding: 0.5rem;
+    border: 1px solid #313131;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #242424;
+}
+
+.email-and-button-wrapper button {
+    margin-left: 6px;
+    padding: 0.4rem;
+    border: 2px solid #fff;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #fff;
+}
+
+/* --------------------- Footer Styling --------------------- */
+
+footer {
+    padding: 2rem 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.customer-wrapper .h2-dark {
+    margin-bottom: 1.25rem;
+}
+
+.help-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-social-wrapper ul {
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.follow-wrapper i {
+    font-size: 1.5rem;
+    color: #555555;
+}
